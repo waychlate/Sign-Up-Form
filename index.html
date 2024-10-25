@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      @font-face {
+        font-family: "Norse-Bold";
+        src: url(./Norse-Bold.otf);
+        font-display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-content">
+      <div class="left-text">
+        <div class="logo-text">Ast.</div>
+      </div>
+    </div>
+    <div class="right-content">
+      <header>
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p>You <i>know</i> you want to.</p>
+      </header>
+      <main>
+        <form action="" method="post">
+          <h3>Let's do this!</h3>
+
+          <div>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" />
+
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="phone_number">Phone Number</label>
+            <input type="tel" name="phone_number" id="phone_number" />
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" />
+
+            <label for="confirm_password"></label>
+            <input type="text" name="confirm_password" id="confirm_password" />
+          </div>
+        </form>
+      </main>
+      <footer>
+        <input type="button" value="Create Account" />
+        Already have an account? Log in
+      </footer>
+    </div>
+  </body>
+</html>
